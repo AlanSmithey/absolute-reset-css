@@ -1,0 +1,160 @@
+/*-----------------------*
+  #BLOCKS
+ *-----------------------*/
+html {
+  box-sizing                  : border-box; // normalize box-sizing
+  -ms-text-size-adjust        : 100%; // prevent adjustments of font size after orientation changes in IE
+  -webkit-text-size-adjust    : 100%; // prevent adjustments of font size after orientation changes in iOS
+  -webkit-font-smoothing      : antialiased; // make text sharper
+  -moz-osx-font-smoothing     : grayscale; // make text sharper
+  -webkit-tap-highlight-color : transparent; // overrides the highlight color shown when the user taps a link or a JavaScript clickable element in Safari on iOS
+}
+
+body {
+  box-sizing : border-box; // normalize box-sizing
+  margin     : 0 auto; // reset and centering
+}
+
+div,
+figcaption,
+form {
+  box-sizing : border-box; // normalize box-sizing
+}
+
+hr {
+  box-sizing : border-box; // normalize box-sizing
+  margin     : 0; // reset
+  border     : 0; // reset
+}
+
+blockquote,
+figure,
+dl,
+dd,
+h1,
+h2,
+h3,
+p {
+  box-sizing : border-box; // normalize box-sizing
+  margin     : 0; // reset
+}
+
+/*-----------------------*
+  #LISTS
+ *-----------------------*/
+ul,
+ol {
+  box-sizing : border-box; // normalize box-sizing
+  margin     : 0; // reset
+  padding    : 0; // reset
+  list-style : none; // reset
+}
+
+/*-----------------------*
+  #TEXT
+ *-----------------------*/
+s {
+  text-decoration : none; // reset
+}
+
+/*-----------------------*
+  #MEDIA
+ *-----------------------*/
+img,
+video {
+  box-sizing : border-box; // normalize box-sizing
+  display    : block; // reset
+  width      : 100%; // 100% of container width,
+  max-width  : 100%; // but not wider then itself
+}
+
+svg,
+canvas {
+  box-sizing : border-box; // normalize box-sizing
+  display    : block; // reset
+}
+
+iframe {
+  box-sizing : border-box; // normalize box-sizing
+  display    : block; // reset
+  border     : 0; // reset
+}
+
+/*-----------------------*
+  #LINK
+ *-----------------------*/
+a {
+  color           : inherit; // reset
+  text-decoration : none; // reset
+  touch-action    : manipulation; // remove 300ms lag on touch in iOS
+}
+
+/*-----------------------*
+  #BUTTON
+ *-----------------------*/
+button {
+  box-sizing         : border-box; // normalize box-sizing
+  display            : block; // reset
+  margin             : 0; // reset
+  padding            : 0; // reset
+  border             : 0; // reset
+  background         : transparent; // reset
+  cursor             : pointer; // set default cursor for buttons
+  user-select        : none; // prevent button text selection on dbl-click
+  touch-action       : manipulation; // remove 300ms lag on touch in iOS
+  -webkit-appearance : button; // correct the inability to style clickable types in iOS
+}
+
+button::-moz-focus-inner {
+  padding : 0; // reset
+  border  : 0; // reset
+}
+
+/*-----------------------*
+  #FORM
+ *-----------------------*/
+label {
+  box-sizing   : border-box; // normalize box-sizing
+  display      : block; // reset
+  touch-action : manipulation; // remove 300ms lag on touch in iOS
+}
+
+input,
+textarea {
+  box-sizing         : border-box; // normalize box-sizing
+  display            : block; // reset
+  width              : 100%; // set width to 100% of container width
+  margin             : 0; // reset
+  resize             : none; // reset
+  touch-action       : manipulation; // remove 300ms lag on touch in iOS
+  -webkit-appearance : none; // remove default borders in ios and moz styling
+  -moz-appearance    : none; // remove default borders in ios and moz styling
+}
+
+textarea:-moz-ui-invalid {
+  box-shadow : none; // remove default red box-shadow in moz on "required" textarea
+}
+
+/*-----------------------*
+  #PROGRESS
+ *-----------------------*/
+progress {
+  box-sizing : border-box; // normalize box-sizing
+  display    : block; // reset
+  width      : 100%; // set width to 100% of container width
+}
+
+progress::-webkit-progress-bar {
+  background : transparent; // reset
+}
+
+/*-----------------------*
+  #FOCUS
+ *-----------------------*/
+a:focus,
+button:focus,
+[tabindex]:focus,
+input:focus,
+textarea:focus {
+  outline : 0; // reset
+}
