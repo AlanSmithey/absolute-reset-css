@@ -3,12 +3,17 @@ write your code from ABSOLUTELY scratch
 
 ## I do not use some HTML elements in my design, therefore i do not reset them:
 
+* abbr
 * area
 * article
 * aside
+* b
+* base
 * bdi
 * bdo
 * caption
+* cite
+* code
 * col
 * colgroup
 * datalist
@@ -16,11 +21,13 @@ write your code from ABSOLUTELY scratch
 * details
 * dfn
 * dialog
+* em
 * embed
 * fieldset
+* hr
+* i
 * input
   * type password
-  * type submit
   * type reset
   * type radio
   * type checkbox
@@ -32,7 +39,6 @@ write your code from ABSOLUTELY scratch
   * type month
   * type number
   * type range
-  * type search
   * type time
   * type URL
   * type week
@@ -61,6 +67,7 @@ write your code from ABSOLUTELY scratch
 * section
 * select
 * source
+* strong
 * sub
 * summary
 * sup
