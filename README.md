@@ -66,6 +66,7 @@ write your code from ABSOLUTELY scratch
 * samp
 * section
 * select
+* small
 * source
 * strong
 * sub
