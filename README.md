@@ -68,7 +68,6 @@ write your code from ABSOLUTELY scratch
 * select
 * small
 * source
-* strong
 * sub
 * summary
 * sup
