@@ -1,44 +1,12 @@
 /*-----------------------*
   #RESET
  *-----------------------*/
-html,
-body,
-main,
-div,
-h1,
-h2,
-h3,
-p,
-blockquote,
-address,
-figure,
-figcaption,
-ul,
-ol,
-dl,
-dd,
-svg,
-canvas,
-iframe,
-img,
-video,
-form,
-label,
-button,
-input,
-textarea,
-progress {
-  box-sizing : border-box; // reset
-  display    : block; // reset
-  margin     : 0; // reset
-  padding    : 0; // reset
-  border     : 0; // reset
-  max-width  : 100%; // reset
+* {
+  box-sizing : border-box; // adjust box sizing
+  margin     : 0; // reset default margin
+  padding    : 0; // reset default padding
 }
 
-/*-----------------------*
-  #BLOCK
- *-----------------------*/
 html {
   -ms-text-size-adjust        : 100%; // prevent adjustments of font size after orientation changes in IE
   -webkit-text-size-adjust    : 100%; // prevent adjustments of font size after orientation changes in iOS
@@ -47,77 +15,44 @@ html {
   -webkit-tap-highlight-color : transparent; // overrides the highlight color shown when the user taps a link or a JavaScript clickable element in Safari on iOS
 }
 
-/*-----------------------*
-  #LIST
- *-----------------------*/
-ul,
-ol {
-  list-style : none; // reset
+img {
+  max-width : 100%; // prevent image over-scaling
 }
 
-/*-----------------------*
-  #MEDIA
- *-----------------------*/
-video {
-  pointer-events : none; // forbid right click context menu
+sub,
+sup {
+  line-height : 0; // prevent from affecting line-height of the parent element
 }
 
-/*-----------------------*
-  #LINK
- *-----------------------*/
-a {
-  color           : inherit; // reset default A color
-  text-decoration : none; // reset A decoration
-  touch-action    : manipulation; // remove 300ms lag on touch in iOS
+label {
+  user-select : none; // prevent label text selection on dbl-click
 }
 
-/*-----------------------*
-  #BUTTON
- *-----------------------*/
-button,
+[type='button'],
+[type='reset'],
 [type='submit'] {
-  background         : transparent; // reset
-  cursor             : pointer; // set default cursor for buttons
+  cursor             : pointer; // set generic cursor type for buttons and button-styled links
   user-select        : none; // prevent button text selection on dbl-click
-  touch-action       : manipulation; // remove 300ms lag on touch in iOS
   -webkit-appearance : button; // correct the inability to style clickable types in iOS
 }
 
-button::-moz-focus-inner,
-[type='submit']::-moz-focus-inner {
-  padding : 0; // reset
-  border  : 0; // reset
-}
-
-/*-----------------------*
-  #INPUT
- *-----------------------*/
-label {
-  touch-action : manipulation; // remove 300ms lag on touch in iOS
-}
-
-[type='text'],
-[type='tel'],
-[type='email'],
-[type='search'],
 textarea {
-  touch-action       : manipulation; // remove 300ms lag on touch in iOS
-  -webkit-appearance : none; // remove default borders in ios and moz styling
-  -moz-appearance    : none; // remove default borders in ios and moz styling
+  resize : vertical; // prevent horizontal resizing
 }
 
-textarea:-moz-ui-invalid {
-  box-shadow : none; // remove default red box-shadow in moz on "required" textarea
+input:-moz-ui-invalid,
+textarea:-moz-ui-invalid,
+select:-moz-ui-invalid {
+  box-shadow : none; // remove default red box-shadow in moz on "required" elements
 }
 
-input::-webkit-search-cancel-button, // remove default design of [type=search]
-input::-webkit-search-decoration { // remove default design of [type=search]
-  -webkit-appearance : none;
-}
-
-/*-----------------------*
-  #PROGRESS
- *-----------------------*/
-progress::-webkit-progress-bar {
-  background : transparent; // reset
+a,
+button,
+input,
+label,
+select,
+textarea,
+[role='button'],
+[role='switch'] {
+  touch-action : manipulation; // remove 300ms delay on touch in iOS
 }
