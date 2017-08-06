@@ -1,79 +1,22 @@
-# absolute-reset-css
-write your code from ABSOLUTELY scratch
+# Modern CSS reset
 
-## I do not use some HTML elements in my design, therefore i do not reset them:
+A most useful set of rules for resetting styles in modern browsers!
 
-* abbr
-* area
-* article
-* aside
-* b
-* base
-* bdi
-* bdo
-* caption
-* cite
-* code
-* col
-* colgroup
-* datalist
-* del
-* details
-* dfn
-* dialog
-* em
-* embed
-* fieldset
-* hr
-* i
-* input
-  * type password
-  * type reset
-  * type radio
-  * type checkbox
-  * type button
-  * type color
-  * type date
-  * type datetime
-  * type datetime-local
-  * type month
-  * type number
-  * type range
-  * type time
-  * type URL
-  * type week
-* ins
-* kbd
-* keygen
-* legend
-* map
-* mark
-* menu
-* menuitem
-* meter
-* nav
-* noscript
-* optgroup
-* option
-* output
-* param
-* picture
-* pre
-* q
-* rp
-* rt
-* ruby
-* samp
-* section
-* select
-* source
-* sub
-* summary
-* sup
-* tbody
-* tfoot
-* thead
-* track
-* u
-* var
-* wbr
+## Target user agents:
+
+* IE 11
+* Edge 14+
+* Firefox 52+
+* Chrome/Chrome for Android 59+
+* Safari/Mobile Safari 10+
+* Opera 46+
+* Android browser 4.4+
+
+### Properties you need to reset yourself:
+
+* Display
+* Border
+* Outline
+* Font
+* Text
+* Color
