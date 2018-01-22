@@ -33,11 +33,11 @@ label {
 [type='submit'] {
   cursor             : pointer; // set generic cursor type for buttons and button-styled links
   user-select        : none; // prevent button text selection on dbl-click
-  -webkit-appearance : button; // correct the inability to style clickable types in iOS
+  -webkit-appearance : button; // correct the inability to style clickable types on iOS
 }
 
 textarea {
-  resize : vertical; // prevent horizontal resizing
+  resize : vertical; // prevent vertical resizing
 }
 
 input:-moz-ui-invalid,
