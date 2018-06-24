@@ -2,9 +2,10 @@
   #RESET
  *-----------------------*/
 * {
-  box-sizing : border-box; // adjust box sizing
-  margin     : 0; // reset default margin
-  padding    : 0; // reset default padding
+  box-sizing        : border-box; // adjust box sizing
+  margin            : 0; // reset default margin
+  padding           : 0; // reset default padding
+  background-origin : border-box; // adjust for background-clip consistency
 }
 
 html {
