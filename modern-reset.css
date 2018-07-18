@@ -37,7 +37,7 @@ label {
 }
 
 textarea {
-  resize : vertical; // prevent vertical resizing
+  resize : vertical; // allow only vertical resizing
 }
 
 input:-moz-ui-invalid,
