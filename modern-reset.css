@@ -5,7 +5,6 @@
   box-sizing      : border-box; // adjust box sizing
   margin          : 0; // reset default margin
   padding         : 0; // reset default padding
-  background-clip : padding-box; // adjust for background-origin consistency
 }
 
 html {
